@@ -1,0 +1,19 @@
+{
+    "name": "danhunsaker/eloquent-meta-relate",
+    "description": "Extend Eloquent relationships to support implied polymorphism and merging",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Hunsaker",
+            "email": "danhunsaker@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danhunsaker\\Eloquent\\": "src"
+        }
+    }
+}
